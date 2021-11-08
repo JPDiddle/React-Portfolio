@@ -1,0 +1,132 @@
+*{margin: 0px;
+  background-color: white;
+  box-sizing: border-box;
+  color: olive;
+  }
+  
+  nav a:hover {
+      opacity: 70%;
+    }
+  .profile-pic {
+  display: block;    
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  aside {
+      display: flex;
+      flex-direction: column;
+  }
+  .about-me, .work, .contact-me, .resume {
+      display: flex;
+      margin-top: 30px;
+  }
+  .title {
+      flex: 0 0 20%;
+      display: flex;
+      margin: 0;
+      justify-content: center;
+      margin-right: 30px;
+      flex-wrap: wrap;
+  }
+  #contact-info {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .list-group {
+      flex: 0 0 80%;
+      border-left: solid olive 4px;
+      padding-left: 30px;
+      line-height: 30px;
+      max-width: 70%;
+  }
+  .content {
+      flex: 0 0 80%;
+      border-left: solid olive 4px;
+      padding-left: 30px;
+      line-height: 30px;
+      max-width: 70%;
+  }
+  p {
+      padding: 10px;
+  }
+  
+  .container :hover {
+      opacity: 70%;
+  }
+  .container2 :hover {
+      opacity: 70%;
+  }
+  
+  .card-body {
+      background-color: white;
+  }
+  .card-title {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+  }
+  .card-text {
+      background-color: white;
+  }
+  
+  img.ajhs {
+      position: relative;
+      width: 100%;
+   
+  }
+  img.regex {
+      position: relative;
+      top: 85%;
+      width: 100%;
+   
+  }
+  .container {
+      position: relative;
+      padding-left: 0px;
+  }
+  .container2 {
+      position: relative;
+      width: 70%;
+      padding-top: 5px;
+  }
+  .text-block {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background-color: white;
+      opacity: 70%;
+      color: olive;
+      padding: 10px;
+  }
+  .text-block2 {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background-color: white;
+      opacity: 70%;
+      color:olive;
+      padding: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+      .profile-pic {
+        width: 100%;
+      }
+  }
+  @media screen and (max-width: 768px) {
+      .header {
+       display: flex;
+       flex-wrap: wrap;
+      }
+  }
+  @media screen and (max-width: 768px) {
+  .lower-page {
+       display: flex;
+       flex-wrap: wrap;
+      }
+  }
+  
+  
